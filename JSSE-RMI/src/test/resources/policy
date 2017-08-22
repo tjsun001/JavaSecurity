@@ -1,0 +1,29 @@
+// In this example, for simplicity, we will use a policy file that
+// gives global permission to anyone from anywhere. Do not use this
+// policy file in a production environment.
+
+grant {
+permission java.security.AllPermission;
+permission java.net.SocketPermission "localhost:2019", "listen,resolve";
+permission java.util.PropertyPermission "axis.byteBuffer.cacheIncrement", "read";
+	
+};
+//grant {
+//permission java.security.AllPermission;
+//permission java.net.SocketPermission "localhost:2019", "listen,resolve";
+
+//};
+
+//permission java.net.SocketPermission "*", "accept,resolve";
+//	permission java.net.SocketPermission "*", "listen,resolve";
+//	permission java.net.SocketPermission "*", "connect,resolve";
+//	permission java.lang.RuntimePermission "*",  "getClassLoader";
+//};
+//grant {
+//permission java.security.AllPermission;
+//permission java.io.FilePermission "C:\Users\584326\Downloads\JSSE-RMI\src\test\resources\keystore\server\testkeys.store", "read" ;
+//permission java.io.FilePermission "C:\Users\584326\Downloads\JSSE-RMI\src\test\resources\keystore\server\testkeys.store", "read" ;
+//permission java.io.FilePermission "C:/Users/584326/Downloads/JSSE-RMI/src/test/resources/keystore/client/testkeys.store", "read" ;
+//permission java.io.FilePermission "C:/Users/584326/Downloads/JSSE-RMI/src/test/resources/keystore/server/testkeys.store", "read" ;
+//
+//};

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.10" icons="true">  
+  <object id="1" language="java" name="HelloImpl" project="JSSE-RMI" file="/JSSE-RMI/src/test/java/HelloImpl.java" 
+    binary="false" label="helloImpl" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="936" width="0" x="0" y="89"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="java.rmi.registry.LocateRegistry" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="locateRegistry" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="888" width="0" x="0" y="113"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="sun.rmi.registry.RegistryImpl" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="registryImpl" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="840" width="0" x="0" y="137"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="768" width="0" x="0" y="185"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="sun.rmi.server.UnicastServerRef" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="unicastServerRef" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="12">      
+      <position height="708" width="0" x="0" y="221"/>    
+    </execution>  
+  </object>  
+  <object id="16" language="java" name="sun.rmi.transport.LiveRef" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="liveRef" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="15">      
+      <position height="660" width="0" x="0" y="245"/>    
+    </execution>  
+  </object>  
+  <object id="19" language="java" name="sun.rmi.transport.tcp.TCPEndpoint" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="tcpEndpoint" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="18">      
+      <position height="612" width="0" x="0" y="269"/>    
+    </execution>  
+  </object>  
+  <object id="22" language="java" name="sun.rmi.transport.tcp.TCPTransport" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="tcpTransport" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="21">      
+      <position height="564" width="0" x="0" y="293"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="492" width="0" x="0" y="341"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="sun.rmi.transport.tcp.TCPEndpoint" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="tcpEndpoint1" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="26">      
+      <position height="432" width="0" x="0" y="377"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="javax.rmi.ssl.SslRMIServerSocketFactory" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="sslRMIServerSocketFactory" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="29">      
+      <position height="384" width="0" x="0" y="401"/>    
+    </execution>  
+  </object>  
+  <object id="33" language="java" name="java.net.ServerSocket" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="serverSocket" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="32">      
+      <position height="336" width="0" x="0" y="425"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="264" width="0" x="0" y="473"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="180" width="0" x="0" y="533"/>    
+    </execution>  
+  </object>  
+  <object id="40" language="java" name="java.security.AccessController" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="accessController" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="39">      
+      <position height="120" width="0" x="0" y="569"/>    
+    </execution>  
+  </object>  
+  <object id="43" language="java" name="java.security.AccessControlContext" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="accessControlContext" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="72" width="0" x="0" y="593"/>    
+    </execution>  
+  </object>  
+  <object id="46" language="java" name="java.security.AccessControlException" project="JSSE-RMI" 
+    file="C:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar" binary="true" label="accessControlException" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="45">      
+      <position height="24" width="0" x="0" y="617"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="createRegistry(int):java.rmi.registry.Registry" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" 
+    operation="RegistryImpl(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="setup(sun.rmi.server.UnicastServerRef):void" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="exportObject(java.rmi.Remote,java.lang.Object):java.rmi.server.RemoteStub" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="14" operation="exportObject(sun.rmi.transport.Target):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="17" operation="exportObject(sun.rmi.transport.Target):void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="20" operation="exportObject(sun.rmi.transport.Target):void" asynchronous="false">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="23" operation="listen():void" asynchronous="false">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="newServerSocket():java.net.ServerSocket" asynchronous="false">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="28" operation="createServerSocket(int):java.net.ServerSocket" asynchronous="false">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="31" operation="ServerSocket(java.net.SocketImpl)" asynchronous="false">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="34" operation="ServerSocket(java.net.SocketImpl)" asynchronous="false">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="bind(java.net.SocketAddress):void" asynchronous="false">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="38" operation="checkPermission(java.security.Permission):void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="41" operation="checkPermission(java.security.Permission):void" asynchronous="false">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="44" operation="AccessControlException(java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>
+</sequence-diagram>
