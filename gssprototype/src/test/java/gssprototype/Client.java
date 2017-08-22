@@ -35,7 +35,7 @@ public static void main( String[] args) {
       //props.load( new FileInputStream( "/client.properties"));
       InputStream fis = ClassLoader.getSystemResourceAsStream("client.properties");
       props.load(new FileInputStream("C:\\Users\\Administrator\\Java_Projects\\gssprototype\\src\\test\\resources\\client.properties"));
-//      props.load( fis);
+
       System.setProperty( "sun.security.krb5.debug", "true");
       System.setProperty( "java.security.krb5.realm", props.getProperty( "realm"));
       System.out.println(props.getProperty("realm"));
